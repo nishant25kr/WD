@@ -25,10 +25,14 @@
 // });
 
 
-const http=require("http");
+const express = require('express')
+const app = express()
 
-const Server=http.createServer(function(req,res){
-    res.end("hello world");
-});
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+app.get('/nishant', function(req,res){
+    res.send("hello n holala holaa")
+})
 
-Server.listen(3000);
+app.listen(3000)
