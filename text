@@ -1,0 +1,16 @@
+-->nodejs<--
+
+programming language   x
+liberary   x
+framework  x
+technology  x,
+* This an js runtime enviroment 
+
+-->npm<--
+* npm is a like a app store for the liberary for the node js
+* Things preinstalled in node is called module and which is installed from npm is called pakages
+* To install any thing from npm --> npm i __
+* dependecies-->package and uunki dependencies
+* devdependecies-->those packages which are only usefull in development and not in real life of the project
+
+-->express.js--<
