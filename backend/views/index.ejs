@@ -27,19 +27,17 @@
                         <h1 class="text-white text-2xl tracking-tighter"><%=val%></h1>
                         <div class="flex w-full justify-between item-center mt-3">
                             <a href="/file/<%= val%>" class="text-blue-500">Read more.</a>
-                            <a href="/edit/<% val%> " class="text-blue-500">edit</a>
+                            <a href="/edit/<%= val%> " class="text-blue-500">edit</a>
                         </div>
 
-                        
+
                     </div>
                 
                 <%})%>
 
             <%}else{%>
                 <h3 class="text-white">No task here</h3>
-
             <%}%>    
-                
         </div>
     </div>
 </body>
