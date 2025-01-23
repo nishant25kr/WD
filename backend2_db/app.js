@@ -1,6 +1,6 @@
 const express=require('express')
 const app=express();
-const userModel=require('./usermodel')
+const userModel=require('./models/user');
 
 app.use(express.json());
  
@@ -9,10 +9,10 @@ app.get('/',(req,res)=>{
 })
 
 app.get('./create', async (req,res)=>{
-    let createduser=await userModel.create({
-        name:"nishant",
-        username:"nishant123",
-        email:"nishant@gmail.com"
+    let createduser = await userModel.create({
+        image: adfad,
+        email:"nishant@gmail.com",
+        name:"nisahnt"
     })
     res.send(createduser);
 })
